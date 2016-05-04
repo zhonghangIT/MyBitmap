@@ -21,7 +21,8 @@
         <activity android:name=".MatrixActivity" />
         <activity android:name=".CanvasActivity" />
         <activity android:name=".PaintActivity" />
-        <activity android:name=".EffectActivity"></activity>
+        <activity android:name=".EffectActivity" />
+        <activity android:name=".XmodeActivity"></activity>
     </application>
 
 </manifest>

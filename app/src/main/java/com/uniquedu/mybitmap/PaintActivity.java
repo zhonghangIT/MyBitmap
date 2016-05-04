@@ -64,6 +64,7 @@ public class PaintActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), EffectActivity.class));
                 break;
             case R.id.button_xmode:
+                startActivity(new Intent(getApplicationContext(), XmodeActivity.class));
                 break;
             case R.id.button_gradient:
                 break;

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uniquedu.mybitmap.XmodeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/imageview_show"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <Button
+            android:id="@+id/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xmode" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:rowCount="4">
+
+            <Button
+                android:id="@+id/button_clear"
+                android:layout_gravity="fill"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/button_src"
+                android:layout_gravity="fill"
+                android:text="SRC" />
+
+            <Button
+                android:id="@+id/button_dst"
+                android:layout_gravity="fill"
+                android:text="DST" />
+
+            <Button
+                android:id="@+id/button_srcover"
+                android:layout_gravity="fill"
+                android:text="SRCOVER" />
+
+            <Button
+                android:id="@+id/button_dstover"
+                android:layout_gravity="fill"
+                android:text="DSTOVER" />
+
+            <Button
+                android:id="@+id/button_srcin"
+                android:layout_gravity="fill"
+                android:text="SRCIN" />
+
+            <Button
+                android:id="@+id/button_dstin"
+                android:layout_gravity="fill"
+                android:text="DSTIN" />
+
+            <Button
+                android:id="@+id/button_srcout"
+                android:layout_gravity="fill"
+                android:text="SRCOUT" />
+
+            <Button
+                android:id="@+id/button_dstout"
+                android:layout_gravity="fill"
+                android:text="DSTOUT" />
+
+            <Button
+                android:id="@+id/button_srcatop"
+                android:layout_gravity="fill"
+                android:text="SRCATOP" />
+
+            <Button
+                android:id="@+id/button_dstatop"
+                android:layout_gravity="fill"
+                android:text="DSTATOP" />
+
+            <Button
+                android:id="@+id/button_xor"
+                android:layout_gravity="fill"
+                android:text="XOR" />
+
+            <Button
+                android:id="@+id/button_darken"
+                android:layout_gravity="fill"
+                android:text="DARKEN" />
+
+            <Button
+                android:id="@+id/button_lighten"
+                android:layout_gravity="fill"
+                android:text="LIGHTEN" />
+
+            <Button
+                android:id="@+id/button_multiply"
+                android:layout_gravity="fill"
+                android:text="Multiplt" />
+
+            <Button
+                android:id="@+id/button_screen"
+                android:layout_gravity="fill"
+                android:text="Screen" />
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
