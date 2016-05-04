@@ -22,7 +22,8 @@
         <activity android:name=".CanvasActivity" />
         <activity android:name=".PaintActivity" />
         <activity android:name=".EffectActivity" />
-        <activity android:name=".XmodeActivity"></activity>
+        <activity android:name=".XmodeActivity" />
+        <activity android:name=".GradientActivity"></activity>
     </application>
 
 </manifest>
