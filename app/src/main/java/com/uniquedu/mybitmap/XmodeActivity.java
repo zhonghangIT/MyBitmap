@@ -74,11 +74,11 @@ public class XmodeActivity extends AppCompatActivity {
         //得到一个宽度
         int radio = imageviewShow.getHeight() / 4 * 3;
         //保存图层，在此图层进行操作
-        int sc = canvas.saveLayer(0, 0, imageviewShow.getWidth(), imageviewShow.getHeight(), null, Canvas.MATRIX_SAVE_FLAG |
-                Canvas.CLIP_SAVE_FLAG |
-                Canvas.HAS_ALPHA_LAYER_SAVE_FLAG |
-                Canvas.FULL_COLOR_LAYER_SAVE_FLAG |
-                Canvas.CLIP_TO_LAYER_SAVE_FLAG);
+            int sc = canvas.saveLayer(0, 0, imageviewShow.getWidth(), imageviewShow.getHeight(), null, Canvas.MATRIX_SAVE_FLAG |
+                    Canvas.CLIP_SAVE_FLAG |
+                    Canvas.HAS_ALPHA_LAYER_SAVE_FLAG |
+                    Canvas.FULL_COLOR_LAYER_SAVE_FLAG |
+                    Canvas.CLIP_TO_LAYER_SAVE_FLAG);
         //创建画笔
         Paint paint = new Paint();
         paint.setStyle(Paint.Style.FILL);
